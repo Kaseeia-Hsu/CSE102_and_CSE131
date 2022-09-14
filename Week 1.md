@@ -114,7 +114,7 @@ In the opposite, __underflow__ is also a kind of error.
 
 So how we're going to perform negative number? __Using sign bit__ in the first position
 
-0 means + and 1 means -, so 0000 means +0, and 1010 means -2. But 0000 and 1000 actually means the same thing, so what should we cope with it?
+0 means + and 1 means -, so 0000 means +0, and 1010 means -2. But 0000 and 1000 actually means the same thing, so how should we cope with it?
 
 
 
@@ -123,7 +123,7 @@ We use one's complement first（一的补数表示法）
 ```
 0000 +0 <=> 1111 -0
 
-0001 +1 >=> 1110 -1
+0001 +1 <=> 1110 -1
 
 0010 +2 <=> 1101 -2
 
@@ -204,6 +204,6 @@ int main()
 ```
 
 ```c
-\n					  //means changing line.
+\n		 //means changing line
 ```
 
