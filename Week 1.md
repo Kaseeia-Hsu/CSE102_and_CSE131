@@ -2,7 +2,7 @@
 
 
 
-## Course I
+## Week I
 
 This course will start to cover Pointers in C after midterm. We have 2 midterms/ 1 finales __online__ in this course. No plagiarism is allowed.
 
