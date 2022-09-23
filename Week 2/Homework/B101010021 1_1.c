@@ -1,6 +1,5 @@
 
 //開發環境: Visual Studio
-//作者: B101020021 徐子群
 
 #define _CRT_SECURE_NO_WARNINGS	//此行代碼用於取消Visual Studio對"scanf"命令發出的警告
 #pragma warning(disable:4996)
