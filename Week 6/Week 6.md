@@ -413,6 +413,6 @@ Using random number function rand(), we must use stdlib.h. rand() will give back
 ```c
 a = rand() % 10;	//  0~9
 a = rand() % 10 +1;	// 1~10
-rand() % (maximun - minimun + 1) +minimun;
+rand() % (maximun - minimun + 1) +minimum;
 ```
 
