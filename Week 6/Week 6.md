@@ -216,9 +216,9 @@ a[j+1] = temp;	// If a[k] > a[j] and do the break command.
 ```c
 int k, j, min, temp;
 
-for(k=0; k<SIZE-1; k++)	// In round k.
+for(k=0; k<SIZE; k++)	// In round k.
 {
-    int min = k;
+    min = k;
     for(j = k+1; j<SIZE; j++)	// If the right side element is smaller than the left side(a[k]),
         if(a[j]<a[min])
           min = j;	// Set min from k to j.
@@ -238,7 +238,7 @@ for(k=0; k<SIZE-1; k++)	// In round k.
 
 
 ```c
-int search, and;
+int search;
 int data[]=(13 numbers);
 
 scanf("%d", &search);
