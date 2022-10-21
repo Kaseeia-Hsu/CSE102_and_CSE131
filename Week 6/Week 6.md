@@ -173,7 +173,7 @@ int main()
     int k, j, temp;
     for(k=0; k<SIZE-2; k++)	// For N elements, we do N-1 rounds
         for(j=0; j<SIZE-1-k; j++)	// When k rounds have ended, we only need to count SIZE-1-k elements since k elements have been sorted into the right positions.
-            if(a[j]>a[j]+1])
+            if(a[j]>a[j+1])
             {
                 temp = a[j];
                 a[j] = a[j+1];
@@ -216,7 +216,7 @@ a[j+1] = temp;	// If a[k] > a[j] and do the break command.
 ```c
 int k, j, min, temp;
 
-for(k=0; k<SIZE; k++)	// In round k.
+for(k=0; k<SIZE-1; k++)	// In round k.
 {
     min = k;
     for(j = k+1; j<SIZE; j++)	// If the right side element is smaller than the left side(a[k]),
