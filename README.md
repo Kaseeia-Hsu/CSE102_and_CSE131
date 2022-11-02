@@ -13,3 +13,9 @@ Week 4: (Updated)
 Week 5: (Updated)
 
 Week 6: (Updated)
+
+Week 7: (Updated)
+
+Week 8: Midterm
+
+Week 9:
