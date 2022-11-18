@@ -1,5 +1,7 @@
 # C Language Design & Experiment (I)
 
+## Week 10
+
 ## Introduction of Stack
 
 Why we need stack? Since "insert" and "delete" is really inefficient in array, that is to say–doing copying takes too much time. And that's why we need to learn more about stack and link. Talking about stack, every point of stack is a node like this:
