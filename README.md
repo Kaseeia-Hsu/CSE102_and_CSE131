@@ -26,6 +26,6 @@ Week 11: (Updated)
 
 Week 12: Midterm 2(Updated)
 
-Week 13:
+Week 13: (Updated)
 
-Week 14:
+Week 14: (Updated)
